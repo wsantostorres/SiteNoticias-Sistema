@@ -74,6 +74,10 @@ body {
   font-size: 1.3em !important;
 }
 
+.nav-item:hover{
+  background-color: #eee;
+}
+
 .others{
   font-size: 1.3em !important;
 }
@@ -103,8 +107,6 @@ body {
 
   .nav-item{
     padding: 10px 0px 10px 10px;
-    border-bottom: 0px;
-    border-left: 4px solid rgba(0, 0, 0, 0);
   }
   
 }
