@@ -52,22 +52,30 @@ body {
 .navbar .navbar-toggler {
   top: .25rem;
   right: 1rem;
-  background-color: white!important;
+  background-color: white !important;
   color: var(--bs-primary);
 }
 
 .navbar-toggler:focus{
   box-shadow: none !important;
-  color: #aaa;
+  background-color: #f2f2f2!important;
 }
 
 .navbar-toggler:hover{
-  color: #aaa;
+  background-color: #f2f2f2!important;
   transition: .3s;
 }
 
 .navbar .form-control {
   padding: .75rem 1rem;
+}
+
+.nav-link{
+  font-size: 1.3em !important;
+}
+
+.others{
+  font-size: 1.3em !important;
 }
 
 .form-control-dark {
