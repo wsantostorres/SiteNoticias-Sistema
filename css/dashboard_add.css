@@ -1,0 +1,19 @@
+.nav-responsive{
+    display: none !important;
+}
+
+.active{
+    background-color: #E5E5E5 !important;
+    color: #636464 !important;
+    border-color: #DEE2E6 !important;
+}
+
+@media (max-width: 1000px) {
+    .nav-responsive{
+        display: block !important;
+    }
+}
+
+@media (max-width: 585px) {
+        
+}
